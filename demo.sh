@@ -38,8 +38,8 @@ case $N in
   2) wget -N --no-check-certificate https://raw.githubusercontent.com/5ime/shell/master/ssr.sh && chmod +x ssr.sh && bash ssr.sh ;;
   3) wget -N --no-check-certificate https://raw.githubusercontent.com/5ime/shell/master/ssrplus.sh && chmod +x ssrplus.sh && bash ssrplus.sh ;;
   4) wget -N --no-check-certificate https://raw.githubusercontent.com/5ime/shell/master/v2ray.sh && chmod +x v2ray.sh && bash v2ray.sh ;;
-  5) wget -N --no-check-certificate https://github.com/chiakge/Linux-NetSpeed/raw/master/tcp.sh && chmod +x tcp.sh && ./tcp.sh ;;
-  6) wget -N --no-check-certificate https://github.com/5ime/shell/raw/master/install_auto_aria2.sh && chmod +x install_auto_aria2.sh && ./install_auto_aria2.sh ;;
+  5) wget -N --no-check-certificate https://raw.githubusercontent.com/5ime/shell/master/tcp.sh && chmod +x tcp.sh && ./tcp.sh ;;
+  6) wget -N --no-check-certificate https://raw.githubusercontent.com/5ime/shell/master/install_auto_aria2.sh && chmod +x install_auto_aria2.sh && ./install_auto_aria2.sh ;;
   7) wget -N --no-check-certificate https://raw.githubusercontent.com/5ime/shell/master/mtproxy_go.sh && chmod +x mtproxy_go.sh && bash mtproxy_go.sh ;;
   8) wget -N --no-check-certificate https://raw.githubusercontent.com/veip007/dd/master/dd-od.sh && chmod +x dd-od.sh  && ./dd-od.sh ;;
   9) wget -N --no-check-certificate https://raw.githubusercontent.com/veip007/dd/master/dd-gd.sh && chmod +x dd-gd.sh  && ./dd-gd.sh ;;
