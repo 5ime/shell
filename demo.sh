@@ -17,15 +17,15 @@ Update_Shell(){
 }
  #1安装BBR 锐速
 bbr_ruisu(){
-	wget -N --no-check-certificate https://raw.githubusercontent.com/5ime/shell/master/caddy_install.sh && chmod +x caddy_install.sh && bash caddy_install.sh
+	acaddy_install.sh && chmod +x caddy_install.sh && bash caddy_install.sh
 }
 #2谷歌 BBR2 BBRV2
 Google_bbr2(){
-	wget -N --no-check-certificate https://raw.githubusercontent.com/yeyingorg/bbr2.sh/master/bbr2.sh && chmod +x bbr2.sh && bash bbr2.sh
+	wget -N --no-check-certificate https://raw.githubusercontent.com/5ime/shell/master/ssr.sh && chmod +x ssr.sh && bash ssr.sh
 }
 #3安装KCPtun
 Kcptun(){
-	wget -N --no-check-certificate https://github.com/veip007/Kcptun/raw/master/kcptun/kcptun.sh && chmod +x kcptun.sh && bash kcptun.sh
+	wget -N --no-check-certificate https://raw.githubusercontent.com/5ime/shell/master/v2ray.sh && chmod +x v2ray.sh && bash v2ray.sh
 }
 #4安装SSR多用户版
 Install_ssr(){
@@ -79,9 +79,9 @@ echo && echo -e "
   
  ${Green_font_prefix} 0.${Font_color_suffix} 升级脚本
 ————————————
- ${Green_font_prefix} 1.${Font_color_suffix} 加速系列：Bbr系列、锐速
- ${Green_font_prefix} 2.${Font_color_suffix} 安装谷歌 BBR2 BBRV2
- ${Green_font_prefix} 3.${Font_color_suffix} 安装KCPtun
+ ${Green_font_prefix} 1.${Font_color_suffix} 安装Caddy
+ ${Green_font_prefix} 2.${Font_color_suffix} 安装SSR
+ ${Green_font_prefix} 3.${Font_color_suffix} 安装V2ray
  ${Green_font_prefix} 4.${Font_color_suffix} 安装SSR多用户版
  ————————————
  ${Green_font_prefix} 5.${Font_color_suffix} 安装V2ary_233一键
