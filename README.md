@@ -46,7 +46,7 @@ wget -N --no-check-certificate https://raw.githubusercontent.com/5ime/shell/mast
 ## install_auto_aria2.sh
 
 - 脚本说明: Aria2 + 自动上传OneDrive 脚本 搭配OLAINDEX 做网盘美滋滋
-- 系统支持: CentOS6+ / Debian6+
+- 系统支持: CentOS / Debian
 
 ## mtproxy_go.sh
 
@@ -56,9 +56,9 @@ wget -N --no-check-certificate https://raw.githubusercontent.com/5ime/shell/mast
 ## V2ray.sh
 
 - 脚本说明: V2ray 一键安装管理脚本
-- 系统支持: CentOS6+ / Ubuntu14+
+- 系统支持: CentOS / Ubuntu
 
 ## bbr.sh
 
 - 脚本说明: BBR原版/BBR魔改/BBR plus/锐速 四合一脚本
-- 系统支持: CentOS6+ / Ubuntu16+
+- 系统支持: CentOS / Ubuntu
