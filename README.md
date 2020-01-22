@@ -1,7 +1,10 @@
 # shell
 本人各种常用脚本
 
-一键脚本：wget -N --no-check-certificate https://raw.githubusercontent.com/5ime/shell/master/demo.sh && chmod +x ssrmu.sh && bash ssrmu.sh
+一键脚本：
+~~~ bash
+wget -N --no-check-certificate https://raw.githubusercontent.com/5ime/shell/master/demo.sh && chmod +x demo.sh && bash demo.sh
+~~~
 
 ## caddy_install.sh
 
