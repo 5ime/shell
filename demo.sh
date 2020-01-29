@@ -36,7 +36,7 @@ read N
 case $N in
   1) wget -N --no-check-certificate https://raw.githubusercontent.com/5ime/shell/master/caddy_install.sh && chmod +x caddy_install.sh && bash caddy_install.sh ;;
   2) wget -N --no-check-certificate https://raw.githubusercontent.com/5ime/shell/master/ssr.sh && chmod +x ssr.sh && bash ssr.sh ;;
-  3) wget -N --no-check-certificate https://raw.githubusercontent.com/5ime/shell/master/ssrplus.sh && chmod +x ssrplus.sh && bash ssrplus.sh ;;
+  3) wget -N --no-check-certificate https://raw.githubusercontent.com/5ime/shell/master/ssrplus.sh && chmod +x ssrmu.sh && bash ssrmu.sh ;;
   4) wget -N --no-check-certificate https://raw.githubusercontent.com/5ime/shell/master/v2ray.sh && chmod +x v2ray.sh && bash v2ray.sh ;;
   5) wget -N --no-check-certificate https://raw.githubusercontent.com/5ime/shell/master/tcp.sh && chmod +x tcp.sh && ./tcp.sh ;;
   6) wget -N --no-check-certificate https://raw.githubusercontent.com/5ime/shell/master/install_auto_aria2.sh && chmod +x install_auto_aria2.sh && ./install_auto_aria2.sh ;;
