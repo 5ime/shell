@@ -23,7 +23,7 @@ wget -N --no-check-certificate https://raw.githubusercontent.com/5ime/shell/mast
 - 支持 一键安装 锐速
 - 支持 一键安装 BBR
 
-## ssrplus.sh
+## ssrmu.sh
 
 - 脚本说明: ShadowsocksR 一键安装管理脚本，支持流量控制
 - 系统支持: CentOS6+ / Debian6+ / Ubuntu14+
