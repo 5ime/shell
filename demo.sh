@@ -7,7 +7,7 @@ SUBNET=$(ip -o -f inet addr show | awk '/scope global/{sub(/[^.]+\//,"0/",$4);pr
 value=$(( 0xffffffff ^ ((1 << (32 - $SUBNET)) - 1) ))
 NETMASK="$(( (value >> 24) & 0xff )).$(( (value >> 16) & 0xff )).$(( (value >> 8) & 0xff )).$(( value & 0xff ))"
 
-sh_ver="2.0.0"
+sh_ver="2.0.1"
 
 
 clear
@@ -26,8 +26,8 @@ echo "  2) SSR一键脚本"
 echo "  3) SSR一键脚本Plus"
 echo "  4) V2ary一键安装脚本"
 echo "  5) BBR四合一安装脚本"
-echo "  6) Telegram代理（Go版）"
-echo "  7) Aria2+自动上传OneDrive"
+echo "  6) Aria2+自动上传OneDrive"
+echo "  7) Telegram代理（Go版）"
 echo "  8) 傻瓜式一键DD包（OD源）"
 echo "  9) 傻瓜式一键DD包（GD源）"
 echo ""
